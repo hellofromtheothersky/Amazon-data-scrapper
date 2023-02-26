@@ -1,10 +1,7 @@
-# Import the library
-import argparse
-# Create the parser
-parser = argparse.ArgumentParser()
-# Add an argument
-parser.add_argument('--name', type=str, required=True, help='The first value to multiply')
-# Parse the argument
-args = parser.parse_args()
-# Print "Hello" + the user input argument
-print('Hello,', args.name)
+def haha():
+    for i in range(10):
+        if i==5:
+            break
+        yield 1
+
+print(list(haha()))
