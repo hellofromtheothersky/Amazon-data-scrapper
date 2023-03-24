@@ -6,7 +6,7 @@ import numpy as np
 class LaptopListSpider(scrapy.Spider):
     name = 'laptop_list'
     allowed_domains = ['amazon.com']
-    start_urls = ['https://www.amazon.com/s?i=computers-intl-ship&bbn=16225007011&rh=n%3A16225007011%2Cn%3A13896617011%2Cn%3A565108&dc&ds=v1%3Ao%2FINkIAqqX2QGX%2BkttIg8PsqJF1NC156Qv6yTuGhATA&qid=1668504788&rnid=13896617011&ref=sr_nr_n_2']
+    start_urls = ['https://www.amazon.com/s?i=computers-intl-ship&bbn=16225007011&rh=n%3A16225007011%2Cn%3A13896617011%2Cn%3A565108&dc']
     list_cur_len=0
 
     def __init__(self, list_max_len):
